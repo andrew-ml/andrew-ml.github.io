@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum" 1;
+  -moz-font-feature-settings: "lnum=1";
+  -ms-font-feature-settings: "lnum" 1;
+  -o-font-feature-settings: "lnum" 1;
+  -webkit-font-feature-settings: "lnum" 1;
+  font-feature-settings: "lnum" 1;
+  /* overflow-y: hidden; */
+  /* background: black; */
+}
+
+@font-face {
+  font-family: "digital7";
+  src: url(/public/WooveboxSegment7Standard.otf);
+  /* src: url(/public/digital-7.regular.ttf); */
+}
+
+body.no-scroll {
+  overflow-y: hidden;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  font-family: "Raleway", sans-serif;
+}

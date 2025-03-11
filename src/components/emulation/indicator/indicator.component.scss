@@ -1,0 +1,29 @@
+.Indicator {
+    display: flex;
+
+    .letter {
+        display: inline-block;
+        background-color: black;
+        box-shadow: inset 0 0 1px rgb(59, 59, 59);
+        position: relative;
+
+        .letter-symbol {
+            display: block;
+            position: relative;
+            font-family: "digital7";
+            transform: skewX(-6deg);
+            opacity: 0;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+        .letter-dot {
+            display: block;
+            position: absolute;
+
+            font-family: "digital7";
+            transform: translateY(-8%);
+        }
+    }
+}

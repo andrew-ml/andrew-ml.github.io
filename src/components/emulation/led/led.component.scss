@@ -1,0 +1,35 @@
+.Led {
+    display: block;
+    box-sizing: border-box;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: rgb(174, 162, 162);
+    cursor: pointer;
+    border: none;
+    box-shadow:
+        0 0 0.3px 0.3px rgba(0, 0, 0, 0.2),
+        0 0 0 1.5px rgb(132, 132, 132),
+        0 0 0.5px 1.5px rgba(0, 0, 0, 0.5),
+        inset 0.1px 0.3px 0.5px 0px #cccccc;
+
+    &.active {
+        background-color: rgb(234, 0, 0);
+    }
+
+    &.blink {
+        animation: blink-animation 4s steps(1, end) infinite;
+    }
+
+    @keyframes blink-animation {
+        25% {
+            background-color: rgb(234, 0, 0);
+        }
+        50% {
+            background-color: rgb(174, 162, 162);
+        }
+        75% {
+            background-color: rgb(234, 0, 0);
+        }
+    }
+}
