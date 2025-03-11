@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19c78285.css",
+    "main.js": "/static/js/main.2a8716f7.js",
+    "static/media/WooveboxSegment7Standard.otf": "/static/media/WooveboxSegment7Standard.dbe8a942baee8fe0d69b.otf",
+    "index.html": "/index.html",
+    "main.19c78285.css.map": "/static/css/main.19c78285.css.map",
+    "main.2a8716f7.js.map": "/static/js/main.2a8716f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19c78285.css",
+    "static/js/main.2a8716f7.js"
+  ]
+}
